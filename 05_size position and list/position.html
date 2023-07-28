@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        /* *{
+            margin: 0;
+            padding: 0;
+        } */
+        li{
+            /* display: inline; */
+            list-style: square;
+        }
+        header{
+            background-color: black;
+            color: bisque;
+            height: 80px;
+            top: 0px;
+            z-index: 1px;
+             position: sticky;
+        }
+        p{
+            text-align: center;
+            border: 2px solid red;
+        }
+        .container{
+            background-color: aqua;
+            width: 50vw;
+            height: 50vh;
+            margin: auto; 
+            padding: 0px 50px;
+            /* position: relative; */
+        }
+        .box1{
+            height: 200px;
+            width: 200px;
+            background-color: chartreuse;
+            /* position: relative; */
+            /* position: absolute; */
+            /* position: fixed; */
+        }
+        .box2{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(53, 13, 116);
+            /* position: relative; */
+        }
+        body{
+            height: 5000px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Setting</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur illum dolorum consequuntur et. Ex doloremque quam necessitatibus ipsum nihil deleniti. Eos natus possimus cupiditate unde maxime accusantium explicabo voluptas enim perspiciatis. Hic, corporis asperiores?</p>
+        <div class="box1">
+            I am a box 1
+        </div>
+        <div class="box2">
+            I am a box 2
+        </div>
+    </div>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Oranges</li>
+    </ul>
+</body>
+</html>

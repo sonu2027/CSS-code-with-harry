@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    height: 5000px;
+}
+.all{
+    position: sticky;
+    top: 0px;
+}
+.myntralogo{
+    background-color: white;
+    height: 78px;
+    width: 9vw;
+    display: inline-block;
+    position: relative;
+    
+}
+.myntralogo img{
+   position: relative;
+   top: 15px;
+   left: 52px;
+}
+.navbar{
+    background-color: white;
+    height: 82px;
+    width: 45vw;
+    display: inline-block;
+    position: relative;
+    top: -29px;
+}
+.navbar ul li{
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 17px;
+    font-size: 20px;
+}
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    background-color: blanchedalmond;
+    color: brown;
+}
+.navbar ul{
+    position: relative;
+    top: 26px;
+}
+form{
+    background-color: white;
+    height: 78px;
+    width: 29.5vw;
+    display: inline-block;
+    position: absolute;
+}
+form label input{
+    background-color: gainsboro;
+    height: 30px;
+    width: 360px;
+    position: relative;
+    top: 20px;
+}
+form label{
+    height: 100px;
+    padding-left: 25px;
+}
+.sdetail{
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    width: 15.2vw;
+    height: 78px;
+}
+.sdetail ul{
+    padding-left: 20px;
+}
+.sdetail ul li{
+    font-size: 15px;
+    display: inline-block;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-top: 45px;
+}
+.sdetail ul li a{
+    color: black;
+    text-decoration: none;
+}
+.sdetail ul li a:hover{
+    background-color: blanchedalmond;
+    color: brown;
+}
+section{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: -28px;
+    margin-bottom: 5px;
+}
+.img1 img{
+    width: 93vw;
+    padding: 0px 37px;
+}
+.article p{
+    text-align: center;
+    font-size: 3.5rem;
+    color: grey;
+}
+.box{
+    text-align: center;
+    font-size: 2rem;
+    background-color: white;
+    color: white;
+}
+.box p{
+    display: inline-block;
+    background-color: orangered;
+}
+footer{
+    text-align: center;
+}

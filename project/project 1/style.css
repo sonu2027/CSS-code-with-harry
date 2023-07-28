@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.myntralogo{
+    background-color: rgb(151, 9, 99);
+    height: 78px;
+    width: 9vw;
+    display: inline-block;
+    position: relative;
+    
+}
+.myntralogo img{
+   position: relative;
+   top: 15px;
+   left: 52px;
+}
+.navbar{
+    background-color: rgb(31, 140, 152);
+    height: 80px;
+    width: 45vw;
+    display: inline-block;
+    position: relative;
+    top: -29px;
+}
+.navbar ul li{
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 17px;
+    font-size: 22px;
+}
+.navbar ul{
+    position: relative;
+    top: 26px;
+}
+form{
+    background-color: aquamarine;
+    height: 78px;
+    width: 29.5vw;
+    display: inline-block;
+    position: absolute;
+}
+form label input{
+    height: 30px;
+    width: 360px;
+    position: relative;
+    top: 20px;
+}
+form label{
+    height: 100px;
+    padding-left: 25px;
+}
+.sdetail{
+    background-color: darkgreen;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    width: 15.2vw;
+    height: 78px;
+}
+.sdetail ul{
+    padding-left: 20px;
+}
+.sdetail ul li{
+    display: inline-block;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 45px;
+}
+body{
+    background-color: rgb(107, 101, 90);
+    height: 5000px;
+}
